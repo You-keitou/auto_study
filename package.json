@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "fastapi-dev": "uv run fastapi dev api/main.py --host='0.0.0.0'",
+    "fastapi-dev": "uv run fastapi dev api/index.py --host='0.0.0.0'",
     "next-dev": "next dev",
     "dev": "concurrently \"bun run next-dev --turbopack\" \"bun run fastapi-dev\"",
     "build": "next build",
